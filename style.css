@@ -40,9 +40,6 @@ li {
 
 
 
-
-
-
 /* SIDEBAR */
 #sidebar {
 	position: fixed;
@@ -378,6 +375,7 @@ main .info-data .card .infromacion{
 main .img_buzo{
 	width: 100%;
 	height: auto;
+	cursor: pointer;
 }
 
 main .img{
