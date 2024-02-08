@@ -373,9 +373,14 @@ main .info-data .card .infromacion{
 }
 
 main .img_buzo{
+	width: 95%;
+	height: auto;
+	
+}
+
+main .img_buzo:hover{
 	width: 100%;
 	height: auto;
-	cursor: pointer;
 }
 
 main .img{
