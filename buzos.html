@@ -1,125 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="css/estilo_buzos.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+	<link rel="stylesheet" href="style.css">
+	<script src="main.js" async></script>
+	<script src="app.js" defer type="module"></script>
+	<title>AdminSite</title>
 </head>
-
 <body>
+	<!-- SIDEBAR -->
+	<section id="sidebar">
+		<a href="#" class="brand"></i>campusShop</a>
+		<ul class="side-menu">
+			<li><a href="#" class="active"><i class='bx bxs-dashboard icon' ></i>todos los productos</a></li>		
+			<li>
+				<a href="#"><i class='bx bxs-inbox icon' ></i> abrigos <i class='bx bx-chevron-right icon-right' ></i></a>
+			</li>
+			<li><a href="#"><i class='bx bxs-chart icon' ></i> camisetas</a></li>
+			<li><a href="#"><i class='bx bxs-widget icon' ></i> pantalones</a></li>
+			<li><a href="#"><i class='bx bx-table icon' ></i> Tables</a></li>
+			<br>
+			<li>
+				<a href="#"><i class='bx bxs-notepad icon' ></i> carritos <i class='bx bx-chevron-right icon-right' ></i></a>
+			</li>
+		</ul>
+	</section>
+	<!-- SIDEBAR -->
 
-  <div class="contenedorTodo">
-    <div class="product">
-      <div class="images-cont">
-        <!-- Miniaturas con enlaces a las imágenes completas -->
-        <div class="img"><a href="#img1"><img src="imagenes/img_buzo1/540353-1200-auto.webp" alt="Producto 1"></a></div>
-        <div class="img"><a href="#img2"><img src="imagenes/img_buzo1/540354-1200-auto.webp" alt="Producto 1"></a></div>
-        <div class="img"><a href="#img3"><img src="imagenes/img_buzo1/540355-1200-auto.webp" alt="Producto 1"></a></div>
-        <div class="img"><a href="#img4"><img src="imagenes/img_buzo1/540356-1200-auto.webp" alt="Producto 1"></a></div>
-      </div>
-      <div class="image-print">
-        <!-- Imágenes en tamaño completo con IDs correspondientes -->
-        <div class="img">
-          <img id="img1" src="imagenes/img_buzo1/540353-1200-auto.webp" class="producto_1">
-        </div>
-        <div class="img">
-          <img id="img2" src="imagenes/img_buzo1/540354-1200-auto.webp" class="producto_1">
-        </div>
-        <div class="img"><img id="img3" src="imagenes/img_buzo1/540355-1200-auto.webp" class="producto_1"></div>
-        <div class="img"><img id="img4" src="imagenes/img_buzo1/540356-1200-auto.webp" class="producto_1"></div>
-      </div>
-      <div class="product-details">
-        <div class="product-name">buzo blanco de tela gruesa</div>
-        <div class="product-price">$20.00</div>
-        <div class="product-description">Lo que tienes que saber de este producto</div>
-        <button class="buy-button"><a href="porductos_buzos/producto_buzo1.html" target="_blank">DETALLES</a></button>
-      </div>
-    </div>
-    <br>
-    <!--producto2-->
-    <div class="product">
-      <div class="images-cont">
-        <!-- Miniaturas con enlaces a las imágenes completas -->
-        <div class="img"><a href="#img5"><img src="imagenes/img_buzo2/img1.webp" alt="Producto 1"></a></div>
-        <div class="img"><a href="#img6"><img src="imagenes/img_buzo2/img2.webp" alt="Producto 1"></a></div>
-        <div class="img"><a href="#img7"><img src="imagenes/img_buzo2/img3.webp" alt="Producto 1"></a></div>
-        <div class="img"><a href="#img8"><img src="imagenes/img_buzo2/img4.webp" alt="Producto 1"></a></div>
-      </div>
-      <div class="image-print">
-        <!-- Imágenes en tamaño completo con IDs correspondientes -->
-        <div class="img">
-          <img id="img5" src="imagenes/img_buzo2/img1.webp" class="producto_1">
-        </div>
-        <div class="img">
-          <img id="img6" src="imagenes/img_buzo2/img2.webp" class="producto_1">
-        </div>
-        <div class="img"><img id="img7" src="imagenes/img_buzo2/img3.webp" class="producto_1"></div>
-        <div class="img"><img id="img8" src="imagenes/img_buzo2/img4.webp" class="producto_1"></div>
-      </div>
-      <div class="product-details">
-        <div class="product-name">buzo marron</div>
-        <div class="product-price">$20.00</div>
-        <div class="product-description">Lo que tienes que saber de este producto</div>
-        <button class="buy-button"><a href="porductos_buzos/prducto_buzo2.html" target="_blank">DETALLES</a></button>
-      </div>
-    </div>
-    <br>
-    <!--producto3-->
-    <div class="product">
-      <div class="images-cont">
-        <!-- Miniaturas con enlaces a las imágenes completas -->
-        <div class="img"><a href="#img9"><img src="imagenes/img_buzo3/img_buzo3-1.webp" alt="Producto 1"></a></div>
-        <div class="img"><a href="#img10"><img src="imagenes/img_buzo3/img_buzo3-2.webp" alt="Producto 1"></a></div>
-        <div class="img"><a href="#img11"><img src="imagenes/img_buzo3/img_buzo3-3.webp" alt="Producto 1"></a></div>
-        <div class="img"><a href="#img12"><img src="imagenes/img_buzo3/img_buzo3-4.webp" alt="Producto 1"></a></div>
-      </div>
-      <div class="image-print">
-        <!-- Imágenes en tamaño completo con IDs correspondientes -->
-        <div class="img">
-          <img id="img9" src="imagenes/img_buzo3/img_buzo3-1.webp" class="producto_1">
-        </div>
-        <div class="img">
-          <img id="img10" src="imagenes/img_buzo3/img_buzo3-2.webp" class="producto_1">
-        </div>
-        <div class="img"><img id="img11" src="imagenes/img_buzo3/img_buzo3-3.webp" class="producto_1"></div>
-        <div class="img"><img id="img12" src="imagenes/img_buzo3/img_buzo3-4.webp" class="producto_1"></div>
-      </div>
-      <div class="product-details">
-        <div class="product-name">buzo azul</div>
-        <div class="product-price">$20.00</div>
-        <div class="product-description">Lo que tienes que saber de este producto</div>
-        <button class="buy-button"><a href="porductos_buzos/producto_buzo3.html" target="_blank">DETALLES</a></button>
-      </div>
-    </div>
-    <br>
-    <!--producto3-->
-    <div class="product">
-    <div class="images-cont">
-      <!-- Miniaturas con enlaces a las imágenes completas -->
-      <div class="img"><a href="#img12"><img src="imagenes/img_buzo4/img_buzo4-1.webp" alt="Producto 1"></a></div>
-      <div class="img"><a href="#img13"><img src="imagenes/img_buzo4/img_buzo4-2.webp" alt="Producto 1"></a></div>
-      <div class="img"><a href="#img14"><img src="imagenes/img_buzo4/img_buzo4-3.webp" alt="Producto 1"></a></div>
-      <div class="img"><a href="#img15"><img src="imagenes/img_buzo4/img_buzo4-4webp.webp" alt="Producto 1"></a></div>
-    </div>
-    <div class="image-print">
-      <!-- Imágenes en tamaño completo con IDs correspondientes -->
-      <div class="img">
-        <img id="img12" src="imagenes/img_buzo4/img_buzo4-1.webp" class="producto_1">
-      </div>
-      <div class="img">
-        <img id="img13" src="imagenes/img_buzo4/img_buzo4-2.webp" class="producto_1">
-      </div>
-      <div class="img"><img id="img14" src="imagenes/img_buzo4/img_buzo4-3.webp" class="producto_1"></div>
-      <div class="img"><img id="img15" src="imagenes/img_buzo4/img_buzo4-4webp.webp" class="producto_1"></div>
-    </div>
-    <div class="product-details">
-      <div class="product-name">buzo marron claro</div>
-      <div class="product-price">$20.00</div>
-      <div class="product-description">Lo que tienes que saber de este producto</div>
-      <button class="buy-button"><a href="/porductos_buzos/producto_buzo4.html" target="_blank">DETALLES</a></button>
-    </div>
+	<!-- NAVBAR -->
+	<section id="content">
+		<!-- NAVBAR -->
+		<nav>
+			<i class='bx bx-menu toggle-sidebar' ></i>
+			<form action="#">
+				
+			</form>
+			
+			<span class="divider"></span>
+			<div class="profile">
+				<img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cGVvcGxlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
+				<ul class="profile-link">
+					<li><a href="#"><i class='bx bxs-user-circle icon' ></i> Profile</a></li>
+					<li><a href="#"><i class='bx bxs-cog' ></i> Settings</a></li>
+					<li><a href="#"><i class='bx bxs-log-out-circle' ></i> Logout</a></li>
+				</ul>
+			</div>
+		</nav>
+		<!-- NAVBAR -->
+
+		<!-- MAIN -->
+		<main>
+			<h1 class="title">todos los productos</h1>
+			<div class="info-data">
+				<div class="card">
+					<div class="head">
+						<img src="img_buzo1/540353-1200-auto.webp"  class="img_buzo">
+					</div>
+					<div class="infromacion"> 
+						<h1>Abrigo 1</h1>
+						<h4>50$ <a href="buzo1.html"><button>agregar</button></a></h4>
+					
+					</div>
+				</div>
+				<div class="card">
+					<div class="head">
+						<img src="img_buzo1/540353-1200-auto.webp"  class="img_buzo">
+					</div>
+					<div class="infromacion"> 
+						<h1>Abrigo 1</h1>
+						<h4>50$ <a href=""><button>agregar</button></a></h4>
+					
+					</div>
+				</div>
+				<div class="card">
+					<div class="head">
+						<img src="img_buzo1/540353-1200-auto.webp"  class="img_buzo">
+					</div>
+					<div class="infromacion"> 
+						<h1>Abrigo 1</h1>
+						<h4>50$ <a href=""><button>agregar</button></a></h4>
+					
+					</div>
+				</div>
+				<div class="card">
+					<div class="head">
+						<img src="img_buzo1/540353-1200-auto.webp"  class="img_buzo">
+					</div>
+					<div class="infromacion"> 
+						<h1>Abrigo 1</h1>
+						<h4>50$ <a href=""><button>agregar</button></a></h4>
+					
+					</div>
+				</div>
+				<div class="card">
+					<div class="head">
+						<img src="img_buzo1/540353-1200-auto.webp"  class="img_buzo">
+					</div>
+					<div class="infromacion"> 
+						<h1>Abrigo 1</h1>
+						<h4>50$ <a href=""><button>agregar</button></a></h4>
+					
+					</div>
+				</div>
+				<div class="card">
+					<div class="head">
+						<img src="img_buzo1/540353-1200-auto.webp"  class="img_buzo">
+					</div>
+					<div class="infromacion"> 
+						<h1>Abrigo 1</h1>
+						<h4>50$ <a href=""><button>agregar</button></a></h4>
+					
+					</div>
+				</div>
+			
+			</div>
+		</main>
+		<!-- MAIN -->
+	</section>
+	<!-- NAVBAR -->
 </body>
-
 </html>
