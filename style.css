@@ -595,6 +595,28 @@ main .btn-send:hover {
 /* MAIN */
 /* CONTENT */
 
+.buy-button {
+    padding: 10px 20px;
+    background-color: #3498dba7;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.buy-button a {
+    color: #000;
+    font-size: 15px;
+}
+
+
+.buy-button:hover {
+    background-color: #2980b9;
+    color: #fff;
+}
+
 
 
 
